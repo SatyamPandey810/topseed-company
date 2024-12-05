@@ -353,3 +353,7 @@ width: 200px;
     background-color: #1f2732;
     color: #9a9a9a;
 }
+.main-content h3{
+    font-size: 3.5rem;
+    color: white;
+}
