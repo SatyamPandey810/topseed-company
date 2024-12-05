@@ -64,5 +64,23 @@
         loop: true,
     });
     
+    $(document).ready(function () {
+        $(".testimonial-carousel").owlCarousel({
+            loop: true, // Enable infinite scrolling
+            margin: 10, // Space between items
+            nav: true, // Enable navigation arrows
+            dots: false, // Disable dots navigation if not needed
+            navText: [
+                '<i class="fas fa-arrow-left"></i>', // Left arrow
+                '<i class="fas fa-arrow-right"></i>', // Right arrow
+            ],
+            responsive: {
+                0: { items: 1 }, // 1 item on small screens
+                600: { items: 2 }, // 2 items on medium screens
+                1000: { items: 3 }, // 3 items on large screens
+            },
+        });
+    });
 })(jQuery);
+
 
