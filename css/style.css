@@ -129,7 +129,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    /* background: rgba(4, 15, 40, .7); */
+    background: rgba(4, 15, 40, .7);
     z-index: 1;
 }
 
@@ -151,7 +151,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(rgba(4, 15, 40, .7), rgba(4, 15, 40, .7)), url(../img/carousel-1.jpg) center center no-repeat;
+    background: linear-gradient(rgba(4, 15, 40, .7), rgba(4, 15, 40, .7)), url(../img/banner.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -336,4 +336,20 @@ width: 200px;
 
 .slider .testimonial-author {
 	color: #484a46;
+}
+.carousel-item img{
+    height: 110vh;
+}
+
+.process-part.skew_right {
+    /* margin-left: -100px;
+    margin-right: -100px; */
+    /* -webkit-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    transform: rotate(3deg); */
+    z-index: 5;
+}
+.ds {
+    background-color: #1f2732;
+    color: #9a9a9a;
 }
