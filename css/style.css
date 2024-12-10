@@ -574,3 +574,22 @@ h6,
     color: #FEA116;
     border-color: black;
 }
+/* Hide all submenus initially */
+.dropdown-menu .dropdown-menu {
+    display: none;
+    position: absolute;
+    left: 100%; /* Aligns submenus to the right of their parent */
+    top: 0;
+    margin-top: -5px; /* Optional: Adjusts alignment */
+}
+
+/* Show submenu on hover of parent dropdown item */
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu > .dropdown:hover > .dropdown-menu {
+    display: block;
+    margin-left: 3px;
+}
+

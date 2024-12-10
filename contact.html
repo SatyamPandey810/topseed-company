@@ -14,7 +14,9 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -33,7 +35,8 @@
 
 <body>
     <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner"></div>
     </div>
     <!-- Spinner End -->
@@ -47,7 +50,7 @@
                     <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+91-8700941023</small>
                     <small class="text-light"><i class="fa fa-envelope-open me-2"></i>info@topseedtech.com</small>
                 </div>
-            </div>            
+            </div>
         </div>
     </div>
     <!-- Topbar End -->
@@ -64,23 +67,40 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto py-0">
-                    <a href="index.html" class="nav-item nav-link ">Home</a>
-                    <a href="about.html" class="nav-item nav-link ">About</a>
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
                         <div class="dropdown-menu m-0">
-                            <a href="booking.html" class="dropdown-item">Web development</a>
-                            <a href="team.html" class="dropdown-item">App development</a>
+                            <!-- Web Development Dropdown -->
+                            <div class="dropdown position-relative">
+                                <a href="#" class="dropdown-item dropdown-toggle">Web Development</a>
+                                <div class="dropdown-menu">
+                                    <a href="#" class="dropdown-item">PHP Development</a>
+                                    <a href="#" class="dropdown-item">MERN Development</a>
+                                    <a href="#" class="dropdown-item">ASP .NET Development</a>
+                                    <a href="#" class="dropdown-item">React Development</a>
+                                    <a href="#" class="dropdown-item">Angular Development</a>
+                                </div>
+                            </div>
+                            <!-- App Development Dropdown -->
+                            <div class="dropdown position-relative">
+                                <a href="#" class="dropdown-item dropdown-toggle">App Development</a>
+                                <div class="dropdown-menu">
+                                    <a href="#" class="dropdown-item">Android App Development</a>
+                                    <a href="#" class="dropdown-item">iOS App Development</a>
+                                    <a href="#" class="dropdown-item">React Native App Development</a>
+                                    <a href="#" class="dropdown-item">Windows App Development</a>
+                                </div>
+                            </div>
                             <a href="testimonial.html" class="dropdown-item">MLM Software</a>
                             <a href="testimonial.html" class="dropdown-item">SEO</a>
                         </div>
                     </div>
-                    <a href="portfolio.html" class="nav-item nav-link ">Portfolio</a>
-                    <a href="blog.html" class="nav-item nav-link ">Blog</a>
-
-                    <a href="contact.html" class="nav-item nav-link active">Contact</a>
+                    <a href="portfolio.html" class="nav-item nav-link">Portfolio</a>
+                    <a href="blog.html" class="nav-item nav-link">Blog</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
                 </div>
-
             </div>
         </nav>
 
@@ -103,11 +123,13 @@
         <div class="modal-dialog modal-fullscreen">
             <div class="modal-content" style="background: rgba(9, 30, 62, .7);">
                 <div class="modal-header border-0">
-                    <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
                 </div>
                 <div class="modal-body d-flex align-items-center justify-content-center">
                     <div class="input-group" style="max-width: 600px;">
-                        <input type="text" class="form-control bg-transparent border-primary p-3" placeholder="Type search keyword">
+                        <input type="text" class="form-control bg-transparent border-primary p-3"
+                            placeholder="Type search keyword">
                         <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
                     </div>
                 </div>
@@ -127,7 +149,8 @@
             <div class="row g-5 mb-5">
                 <div class="col-lg-4">
                     <div class="d-flex align-items-center wow fadeIn" data-wow-delay="0.1s">
-                        <div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
+                        <div class="bg-primary d-flex align-items-center justify-content-center rounded"
+                            style="width: 60px; height: 60px;">
                             <i class="fa fa-phone-alt text-white"></i>
                         </div>
                         <div class="ps-4">
@@ -138,7 +161,8 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="d-flex align-items-center wow fadeIn" data-wow-delay="0.4s">
-                        <div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
+                        <div class="bg-primary d-flex align-items-center justify-content-center rounded"
+                            style="width: 60px; height: 60px;">
                             <i class="fa fa-envelope-open text-white"></i>
                         </div>
                         <div class="ps-4">
@@ -149,12 +173,13 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="d-flex align-items-center wow fadeIn" data-wow-delay="0.8s">
-                        <div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
+                        <div class="bg-primary d-flex align-items-center justify-content-center rounded"
+                            style="width: 60px; height: 60px;">
                             <i class="fa fa-map-marker-alt text-white"></i>
                         </div>
                         <div class="ps-4">
                             <h5 class="mb-2">Visit our office</h5>
-                            <h4 class="text-primary mb-0">123 Street, NY, USA</h4>
+                            <h4 class="text-primary mb-0">A-81 2nd floor Noida Sector 65, Utter Pradesh, India</h4>
                         </div>
                     </div>
                 </div>
@@ -164,16 +189,20 @@
                     <form>
                         <div class="row g-3">
                             <div class="col-md-6">
-                                <input type="text" class="form-control border-0 bg-light px-4" placeholder="Your Name" style="height: 55px;">
+                                <input type="text" class="form-control border-0 bg-light px-4" placeholder="Your Name"
+                                    style="height: 55px;">
                             </div>
                             <div class="col-md-6">
-                                <input type="email" class="form-control border-0 bg-light px-4" placeholder="Your Email" style="height: 55px;">
+                                <input type="email" class="form-control border-0 bg-light px-4" placeholder="Your Email"
+                                    style="height: 55px;">
                             </div>
                             <div class="col-12">
-                                <input type="text" class="form-control border-0 bg-light px-4" placeholder="Subject" style="height: 55px;">
+                                <input type="text" class="form-control border-0 bg-light px-4" placeholder="Subject"
+                                    style="height: 55px;">
                             </div>
                             <div class="col-12">
-                                <textarea class="form-control border-0 bg-light px-4 py-3" rows="4" placeholder="Message"></textarea>
+                                <textarea class="form-control border-0 bg-light px-4 py-3" rows="4"
+                                    placeholder="Message"></textarea>
                             </div>
                             <div class="col-12">
                                 <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
@@ -193,8 +222,8 @@
     <!-- Contact End -->
 
 
-   
-    
+
+
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-light mt-5 wow fadeInUp" data-wow-delay="0.1s">
